@@ -98,7 +98,7 @@ class Graph
 					}
 				else
 					{
-						cout<<"Graph does not contain\nMinimum Distance of Each Vertex from "<<root<<endl;
+						cout<<"Graph does not contain negative Cycle\nMinimum Distance of Each Vertex from "<<root<<endl;
 						for(int i=1;i<=V;i++)
 						{
 							cout<<i<<" -> "<<distance[i]<<endl;
